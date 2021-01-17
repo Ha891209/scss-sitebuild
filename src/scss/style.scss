@@ -1,5 +1,5 @@
-@import "variables.scss";
-@import "mixins.scss";
+@import "../scss/variables/variables.scss";
+@import "../scss/mixins/mixins.scss";
 
 body {
     @include body-font;
