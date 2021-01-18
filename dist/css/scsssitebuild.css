@@ -116,7 +116,7 @@ html {
 }
 
 body {
-  background-image: url("/dist/img/bg-pattern.png"), linear-gradient(90deg, #DA2431, #7A4397);
+  background-image: url("/img/bg-pattern.png"), linear-gradient(90deg, #DA2431, #7A4397);
 }
 
 header {
@@ -285,7 +285,7 @@ header {
 }
 
 .cta {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/dist/img/bg-cta.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/bg-cta.jpg");
   background-size: cover;
   height: 70vh;
 }
