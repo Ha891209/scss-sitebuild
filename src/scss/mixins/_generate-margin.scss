@@ -1,0 +1,33 @@
+@mixin generate-margin() {
+  @for $i from 0 through 10 {
+    .m-#{$i} {
+      margin: $i+rem;
+    }
+    
+    .mx-#{$i} {
+      margin: 0 $i+rem;
+    }
+
+    .my-#{$i} {
+      margin: $i+rem 0;
+    }
+
+    .mt-#{$i} {
+      margin-top: $i+rem;
+    }
+
+    .mb-#{$i} {
+      margin-bottom: $i+rem;
+    }
+
+    .ml-#{$i} {
+      margin-left: $i+rem;
+    }
+
+    .mr-#{$i} {
+      margin-right: $i+rem;
+    }
+  }
+}
+
+  

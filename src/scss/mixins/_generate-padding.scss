@@ -1,0 +1,34 @@
+@mixin generate-padding() {
+  @for $i from 0 through 10 {
+    .p-#{$i} {
+      padding: $i+rem;
+    }
+
+    .px-#{$i} {
+      padding: 0 $i+rem;
+    }
+
+    .py-#{$i} {
+      padding: $i+rem 0;
+    }
+
+    .pt-#{$i} {
+      padding-top: $i+rem;
+    }
+
+    .pb-#{$i} {
+      padding-bottom: $i+rem;
+    }
+
+    .pl-#{$i} {
+      padding-left: $i+rem;
+    }
+
+    .pr-#{$i} {
+      padding-right: $i+rem;
+    }
+
+  }
+}
+
+  

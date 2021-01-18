@@ -1,0 +1,263 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-image: url('/img/bg-pattern.png'), linear-gradient(90deg, #DA2431, #7A4397);
+}
+
+header {
+    height: 100%;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: 992px) {
+        flex-direction: row;
+    }
+}
+
+.new-age-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    @media screen and (min-width: 992px) {
+        align-items: flex-start;
+        padding-right: 4rem;
+    }
+}
+
+.new-age {
+    text-align: center;
+
+    @media screen and (min-width: 992px) {
+        margin-top: 0;
+        text-align: left;
+    }
+}
+
+.mobile-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+    @media screen and (min-width: 992px) {
+        margin-left: auto;
+    }
+}
+
+.phone {
+    width: 100%;
+}
+
+.demo-screen {
+    border-radius: .4rem;
+    position: absolute;
+    width: 90%;
+}
+
+.start-now {
+    border: solid 1px #ffffff;
+    background-color: transparent;
+    border-radius: 5rem;
+    color: #ffffff;
+    padding: .5rem 1.8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 300ms, border-color 300ms;
+}
+
+.start-now:hover {
+    background-color: #fdcc52;
+    border-color: #fdcc52;
+    color: #222222;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: #fdcc52;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.google-play-app-store {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    a {
+        padding: 1rem 0.1rem;
+
+        img {
+            width: 50%;
+        }
+    }
+    
+    @media screen and (min-width: 992px) {
+        flex-direction: row;
+        a {    
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+#features {
+    background-color: #ffffff;
+}
+
+.flex-column-lg-row {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    @media screen and (min-width: 992px) {
+        flex-direction: row;
+    }
+}
+
+.align-center {
+    display: flex;
+    justify-content: center;
+}
+
+.unlimited-feature-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div {
+        width: 50%;
+
+        div{
+        width: 100%;
+        }
+    }
+    
+    @media screen and (min-width: 992px) {
+        align-items: initial;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.simple-line-icon {
+    font-size: 4rem;
+}
+
+.line {
+    color: #dddddd;
+}
+
+.simple-line-icon {
+    background: linear-gradient(90deg, #DA2431, #9B3871);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;  
+}
+
+.cta {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/img/bg-cta.jpg');
+    background-size: cover;
+    height: 70vh;
+}
+
+.stop-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+}
+
+.text-secondary {
+    color: #6c757d;
+}
+
+.text-danger {
+    color: #ff0000;
+    font-size: 4rem;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.bg-twitter {
+    color: #1DA1F3;
+}
+
+.bg-facebook {
+    color:#3B5999;
+}
+
+.bg-google {
+    color:#DD4C39;
+}
+
+.fa-stack {
+    opacity: .9;
+}
+
+.fa-stack:hover {
+    opacity: 1;
+}
+
+footer {
+    background-color: #222222;
+}
+
+.footer-link {
+    cursor: pointer;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip .tooltip-text::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }
+  
+  .tooltip:hover .tooltip-text {
+    visibility: visible;
+  }
