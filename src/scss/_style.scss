@@ -28,8 +28,8 @@ p {
 
 .gradient-bg {
     background: rgb(219, 36, 49);
-    background-image: url('../img/bg-pattern.png');
-    background-image: url('../img/bg-pattern.png'), linear-gradient(90deg, rgba(219, 36, 49, 1) 0%, rgba(123, 67, 151, 1) 100%);
+    background-image: url('/dist/img/bg-pattern.png');
+    background-image: url('/dist/img/bg-pattern.png'), linear-gradient(90deg, rgba(219, 36, 49, 1) 0%, rgba(123, 67, 151, 1) 100%);
     background-repeat: repeat;
 }
 
@@ -317,4 +317,8 @@ h6 {
     text-align: center;
     cursor: pointer;
     transition: background-color .3s;
+}
+
+.cta{
+    background-image:url("/dist/img/bg-cta.jpg") ;
 }
