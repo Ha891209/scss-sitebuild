@@ -23,6 +23,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Catamaran, Helvetica, Arial, sans-serif;
   font-weight: 100;
@@ -116,7 +117,7 @@ html {
 }
 
 body {
-  background-image: url("/img/bg-pattern.png"), linear-gradient(90deg, #DA2431, #7A4397);
+  background-image: url("../img/bg-pattern.png"), linear-gradient(90deg, #DA2431, #7A4397);
 }
 
 header {
